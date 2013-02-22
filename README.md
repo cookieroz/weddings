@@ -1,0 +1,1 @@
+Destination weddings app for destination weddings in Spain
