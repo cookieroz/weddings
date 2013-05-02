@@ -7,4 +7,13 @@ class StaticPagesController < ApplicationController
 
   def about
   end
+
+  def after
+  end
+
+  def before
+  end
+
+  def weddings
+  end
 end

@@ -1,0 +1,11 @@
+<p id="notice"><%= notice %></p>
+
+<% unless @service.service_image.nil? %>
+    <%= link_to image_tag(@service.service_image.url), @service %>
+<% end %>
+
+<h1><%= link_to @service.name, @service  %></h1>
+<p><%= raw @service.content %></p>
+
+<%= link_to 'Edit', edit_service_path(@service) %> |
+<%= link_to 'Back', services_path %>
